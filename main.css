@@ -1,5 +1,6 @@
+
 table#table-1,
-table#table-2,
+table.table-2,
 .result  {
 	width: 220px;
 	margin: 0 auto;
@@ -9,7 +10,15 @@ table#table-2,
 	display: none;
 }
 
+.result table tr:last-child  {
+	font-weight: 600;
+}
+
 table#table-1 tr td:first-child {
+	width: 200px;
+}
+
+.result table tr td:first-child {
 	width: 200px;
 }
 
