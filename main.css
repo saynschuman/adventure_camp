@@ -1,0 +1,20 @@
+table  {
+
+}
+
+table tr {
+
+}
+
+table tr td {
+
+}
+
+table tr td:first-child {
+	width: 200px;
+}
+
+table tr td:last-child {
+	width: 200px;
+	
+}
