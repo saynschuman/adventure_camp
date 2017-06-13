@@ -1,5 +1,6 @@
 table  {
-
+	width: 220px;
+	margin: 0 auto;
 }
 
 table tr {
@@ -15,6 +16,14 @@ table tr td:first-child {
 }
 
 table tr td:last-child {
-	width: 200px;
-	
+	width: 20px;
+}
+
+button {
+	display: block;
+	width: 100px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	cursor: pointer;
 }
