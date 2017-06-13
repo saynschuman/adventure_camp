@@ -1,21 +1,19 @@
-table  {
+table#table-1,
+table#table-2,
+.result  {
 	width: 220px;
 	margin: 0 auto;
 }
 
-table tr {
-
+.result {
+	display: none;
 }
 
-table tr td {
-
-}
-
-table tr td:first-child {
+table#table-1 tr td:first-child {
 	width: 200px;
 }
 
-table tr td:last-child {
+table#table-1 tr td:last-child {
 	width: 20px;
 }
 
@@ -26,4 +24,12 @@ button {
 	margin-bottom: 20px;
 	margin-top: 20px;
 	cursor: pointer;
+}
+
+.title {
+	font-weight: bold;
+	text-transform: uppercase;
+	width: 220px;
+	margin: 0 auto;
+	margin-top: 20px;
 }
